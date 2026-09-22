@@ -9,6 +9,7 @@ description = "Learned-router LLM optimization SDK: fine-tuned complexity classi
 requires-python = ">=3.10"
 dependencies = [
     "fastapi",
+    "uvicorn",
     "pydantic",
     "scikit-learn",
     "transformers",
@@ -21,6 +22,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest"]
+demo = ["streamlit"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

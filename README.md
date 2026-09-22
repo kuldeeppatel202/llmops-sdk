@@ -59,6 +59,8 @@ context compressor + guardrails, wrapped in a FastAPI-based SDK.
 - `tests/test_router.py`, `tests/test_cache.py`, `tests/test_compressor.py`,
   `tests/test_guardrails.py`, `tests/test_router_model.py`, `tests/test_api.py` — edge
   case and integration coverage for all components, 49 tests total.
+- `demo/streamlit_app.py` — interactive demo: a live query tester running the real
+  pipeline (same code as `POST /query`) plus a dashboard of the real numbers below.
 
 **Real results:**
 - Router (486-example labeled subset, scaled down from the original ~2,500 for a faster
@@ -90,6 +92,9 @@ python -m venv .venv
 .venv/Scripts/activate      # Windows
 pip install -e ".[dev]"
 pytest
+
+# For the Streamlit demo
+pip install -e ".[demo]"
 ```
 
 ## Usage
@@ -116,4 +121,7 @@ uvicorn llmops_sdk.api.main:app --reload
 
 # Full pipeline benchmark (requires GEMINI_API_KEY, makes real API calls)
 python scripts/run_full_benchmark.py
+
+# Interactive demo (live query tester + results dashboard)
+streamlit run demo/streamlit_app.py
 ```
