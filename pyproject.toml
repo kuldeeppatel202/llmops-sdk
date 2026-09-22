@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmops-sdk"
+version = "0.1.0"
+description = "Learned-router LLM optimization SDK: fine-tuned complexity classifier, semantic cache, context compressor, and guardrails."
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "scikit-learn",
+    "transformers",
+    "sentence-transformers",
+    "torch",
+    "accelerate",
+    "datasets",
+    "google-genai",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

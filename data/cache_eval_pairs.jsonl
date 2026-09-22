@@ -1,0 +1,40 @@
+{"query_a": "What is our company's PTO policy?", "query_b": "How much paid time off do employees get?", "is_duplicate": true}
+{"query_a": "What's the capital of France?", "query_b": "Which city is the capital of France?", "is_duplicate": true}
+{"query_a": "How do I reset my password?", "query_b": "What are the steps to reset my password?", "is_duplicate": true}
+{"query_a": "What is machine learning?", "query_b": "Can you explain what machine learning is?", "is_duplicate": true}
+{"query_a": "How does photosynthesis work?", "query_b": "Can you explain the process of photosynthesis?", "is_duplicate": true}
+{"query_a": "What is the difference between TCP and UDP?", "query_b": "How do TCP and UDP differ?", "is_duplicate": true}
+{"query_a": "What are the benefits of exercise?", "query_b": "Why is exercise good for you?", "is_duplicate": true}
+{"query_a": "How do I cancel my subscription?", "query_b": "What's the process to cancel a subscription?", "is_duplicate": true}
+{"query_a": "What is the boiling point of water?", "query_b": "At what temperature does water boil?", "is_duplicate": true}
+{"query_a": "Who wrote Romeo and Juliet?", "query_b": "Who is the author of Romeo and Juliet?", "is_duplicate": true}
+{"query_a": "What is compound interest?", "query_b": "Can you explain compound interest to me?", "is_duplicate": true}
+{"query_a": "How do I file an expense report?", "query_b": "What's the process for submitting an expense report?", "is_duplicate": true}
+{"query_a": "What time does the store close?", "query_b": "When does the store close?", "is_duplicate": true}
+{"query_a": "What is the recipe for chocolate chip cookies?", "query_b": "How do I make chocolate chip cookies?", "is_duplicate": true}
+{"query_a": "What is Python used for?", "query_b": "What are the common use cases of Python?", "is_duplicate": true}
+{"query_a": "How many days of sick leave do I have?", "query_b": "What is my sick leave balance?", "is_duplicate": true}
+{"query_a": "What is the weather like today?", "query_b": "How's the weather today?", "is_duplicate": true}
+{"query_a": "What's the return policy?", "query_b": "Can I return items, and what's the policy?", "is_duplicate": true}
+{"query_a": "How do I contact customer support?", "query_b": "What is the customer support contact information?", "is_duplicate": true}
+{"query_a": "What is a black hole?", "query_b": "Can you explain what a black hole is?", "is_duplicate": true}
+{"query_a": "What is our company's PTO policy?", "query_b": "What is our company's sick leave policy?", "is_duplicate": false}
+{"query_a": "What's the capital of France?", "query_b": "What's the population of France?", "is_duplicate": false}
+{"query_a": "How do I reset my password?", "query_b": "How do I change my username?", "is_duplicate": false}
+{"query_a": "What is machine learning?", "query_b": "What is deep learning?", "is_duplicate": false}
+{"query_a": "How does photosynthesis work?", "query_b": "How does cellular respiration work?", "is_duplicate": false}
+{"query_a": "What is the difference between TCP and UDP?", "query_b": "What is the difference between HTTP and HTTPS?", "is_duplicate": false}
+{"query_a": "What are the benefits of exercise?", "query_b": "What are the risks of overtraining?", "is_duplicate": false}
+{"query_a": "How do I cancel my subscription?", "query_b": "How do I upgrade my subscription?", "is_duplicate": false}
+{"query_a": "What is the boiling point of water?", "query_b": "What is the freezing point of water?", "is_duplicate": false}
+{"query_a": "Who wrote Romeo and Juliet?", "query_b": "Who wrote Macbeth?", "is_duplicate": false}
+{"query_a": "What is compound interest?", "query_b": "What is simple interest?", "is_duplicate": false}
+{"query_a": "How do I file an expense report?", "query_b": "How do I file a tax return?", "is_duplicate": false}
+{"query_a": "What time does the store close?", "query_b": "What time does the store open?", "is_duplicate": false}
+{"query_a": "What is the recipe for chocolate chip cookies?", "query_b": "What is the recipe for oatmeal cookies?", "is_duplicate": false}
+{"query_a": "What is Python used for?", "query_b": "What is JavaScript used for?", "is_duplicate": false}
+{"query_a": "How many days of sick leave do I have?", "query_b": "How many days of vacation do I have?", "is_duplicate": false}
+{"query_a": "What is the weather like today?", "query_b": "What is the weather forecast for tomorrow?", "is_duplicate": false}
+{"query_a": "What's the return policy?", "query_b": "What's the warranty policy?", "is_duplicate": false}
+{"query_a": "How do I contact customer support?", "query_b": "How do I contact technical support?", "is_duplicate": false}
+{"query_a": "What is a black hole?", "query_b": "What is a neutron star?", "is_duplicate": false}
